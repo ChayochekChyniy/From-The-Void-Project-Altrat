@@ -1,0 +1,25 @@
+displayName: "From The Void: Project Altrat"
+name: "pa"
+author: "Altrat Team"
+description:
+  "Welcome to the Project: Altrat!
+  The mod will add the planet Altrat to the game, a planet that has been plunged into darness and pain over the centuries of war. Your goal is to rekindle it and restore its former glory.
+  
+  _   _   _   _   _   _   _
+  
+  
+  My first full-fledged mod makes a significant contribution to the expansion of game content by adding a new planet. Despite potential technical errors or flaws. I am sure that this mod will enrich the user's gaming experience. I would appreciate any feedback that will help improve the quality of the mod.
+  It's hjson mod!
+  
+  Authors:
+    Sprites, maps, hoster - TEA
+    Code, scripts - SKYPETR
+    
+  Special Thanks:
+    Bloody Ocean
+    Falay
+    ACE
+    Octium
+    Codex"
+version: "0.1.0"
+minGameVersion: 158.1
