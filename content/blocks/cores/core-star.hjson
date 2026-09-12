@@ -13,8 +13,8 @@ alwaysUnlocked: true
 itemCapacity: 3000
 unitCapModifier: 18
 research: {
-  planet: Altrat
+  planet: altrat
   root: true
-  name: Altrat
+  name: altrat
   requiresUnlock: false
 }
