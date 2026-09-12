@@ -1,0 +1,46 @@
+type: flying
+name: Asteroid
+speed: 0.8
+hitSize: 8
+rotateSpeed: 3
+health: 130
+armor: 3
+itemCapacity: 40
+buildSpeed: 1
+mineSpeed: 5
+mineTier: 1
+
+engineOffset: 6
+engineSize: 2.8
+
+outlineColor: 433A60FF
+
+weapons: [
+  {
+    x: 2
+    y: 4
+    reload: 34
+    recoil: 1.5
+    shootCone: 15
+    shootY: 3
+
+    shoot: {
+      shots: 3
+      shotDelay: 4
+    }
+
+    bullet: {
+      type: BasicBulletType
+      speed: 4.5
+      damage: 8
+      lifetime: 45
+      width: 5
+      height: 9
+
+      trailColor: CBDCDDFF
+      backColor: CBDCDDFF
+      frontColor: CBDCDDFF
+      hitColor: CBDCDDFF
+    }
+  }
+]
