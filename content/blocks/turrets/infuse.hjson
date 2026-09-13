@@ -3,6 +3,7 @@ type: ItemTurret
 size: 2
 range: 140
 reload: 175
+category: turret
 research: core-star
 researchCostMultiplier: 0.1
 inaccuracy: 360
@@ -24,7 +25,7 @@ drawer: {
     }
     {
       type: RegionPart
-      suffix: -thruster
+      suffix: -thrusters
       mirror: false
       under: true
       progress: recoil
