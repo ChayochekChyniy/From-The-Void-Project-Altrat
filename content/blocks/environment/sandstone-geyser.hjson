@@ -1,6 +1,7 @@
 type: SteamVent
 name: sandstone-geyser
 variants: 2
+parent: stone
 
 effectSpacing: 15
 effect:{
