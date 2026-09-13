@@ -7,7 +7,4 @@ size: 1
 requirements: {
 aluminum/1
 }
-researchCost: {
-aluminum/2
-}
 researchCostMultiplier: 2
