@@ -4,6 +4,6 @@ speed: 15
 category: distribution
 health: 40
 size: 1
-requirements: {
+requirements: 
 aluminum/1
-}
+
