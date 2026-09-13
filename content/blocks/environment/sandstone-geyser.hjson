@@ -1,0 +1,55 @@
+type: SteamVent
+name: sandstone-geyser
+variants: 2
+
+effectSpacing: 15
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            region: sandstone-geyser
+            lifetime: 70
+            sizeInterp: slope
+            length: 25
+            baseLength: 4
+            sizeFrom: 1
+            sizeTo: 3
+            colorFrom: b2aa94b1
+            colorTo: 7f746c00
+            layer: 61.7
+            spin: 12
+            baseRotation: 32.5
+        }
+        {
+            type: ParticleEffect
+            region: sandstone-geyser
+            lifetime: 130
+            sizeInterp: slope
+            length: 65
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: b2aa94b1
+            colorTo: 7f746c00
+            layer: 61.8
+            cone: 45
+            baseRotation: 30
+        }
+        {
+            type: ParticleEffect
+            region: sandstone-geyser
+            lifetime: 100
+            sizeInterp: slope
+            length: 65
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: c9bfa5b1
+            colorTo: b2aa9400
+            layer: 61.9
+            cone: 35
+            baseRotation: 30
+        }
+    ]
+}
