@@ -3,7 +3,7 @@ type: ItemTurret
 size: 2
 range: 140
 reload: 175
-inaccuracy: 180
+inaccuracy: 0
 shootCone: 10
 shake: 0.01
 recoilTime: 20
@@ -17,23 +17,23 @@ shoot: {
 ammoTypes: {
   pa-aluminum: {
     type: BasicBulletType
+    damage: 65
     speed: 3
-    lifetime: 30
-    drag: 0.1
-    backColor: f9c17a00
-    frontColor: fff8e800
-    collides: false
-    collidesGround: false
-    collidesAir: false
-    collidesTiles: false
-    hittable: false
-    reflectable: false
-    absorbable: false
-    laserAbsorb: false
-    keepVelocity: false
-    targetMissiles: false
-    removeAfterPierce: false
-    hitEffect: none
+    lifetime: 46
+    width: 15
+    height: 17
+    backColor: 797979ff
+    frontColor: ffffffff
+    shrinkInterp: slowFast
+    shrinkX: 0.5
+    shrinkY: -0.5
+    knockback: 0.1
+    status: slow
+    statusDuration: 120
+    trailInterval: 10
+    trailRotation: true
+    hitEffect: hitLancerLow
+    despawnEffect: randLifeSpark
 
     shootEffect: {
       type: WaveEffect
@@ -50,107 +50,39 @@ ammoTypes: {
       smokeRad: 12
       smokes: 2
     }
-    despawnEffect: {
-      type: WaveEffect
-      colorFrom: ffffff00
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 20
+      interp: smooth2
+      colorFrom: ffffff77
       colorTo: ffffff00
-    }
-
-    fragBullets: 1
-    fragBullet: {
-      laserAbsorb: false
-      collidesGround: false
-      hittable: false
-      reflectable: false
-      collides: false
-      absorbable: false
-      targetMissiles: false
-      collidesAir: false
-      collidesTiles: false
-      followAimSpeed: 100
-      lifetime: 5
-      fragBullets: 1
-      fragRandomSpread: 0
-      targetBlocks: false
-      hitColor: ffffff00
-      lightColor: fbfbfbff
-
-      hitEffect: {
-        type: ParticleEffect
-        useRotation: false
-        interp: fade
-        colorFrom: ffffff00
-        particles: 1
-        length: 0
-        lifetime: 25
-        sizeFrom: 23
-      }
-      despawnEffect: {
-        type: ParticleEffect
-        useRotation: false
-        interp: pow2In
-        colorFrom: ffffff00
-        colorTo: ffffff5c
-        particles: 1
-        length: 0
-        sizeFrom: 12
-      }
-
-      fragBullet: {
-        type: BasicBulletType
-        damage: 65
-        speed: 2.2
-        accel: 0.25
-        lifetime: 50
-        width: 15
-        height: 17
-        backColor: 797979ff
-        frontColor: ffffffff
-        shrinkInterp: slowFast
-        shrinkX: 0.5
-        shrinkY: -0.5
-        knockback: 0.1
-        status: slow
-        statusDuration: 120
-        trailInterval: 10
-        trailRotation: true
-        hitEffect: hitLancerLow
-        despawnEffect: randLifeSpark
-        trailEffect: {
-          type: ParticleEffect
-          particles: 1
-          lifetime: 20
-          interp: smooth2
-          colorFrom: ffffff77
-          colorTo: ffffff00
-          cone: 0
-          randLength: false
-          sizeTo: 6
-          rotWithParent: true
-        }
-      }
+      cone: 0
+      randLength: false
+      sizeTo: 6
+      rotWithParent: true
     }
   }
 
   pa-dromium: {
     type: BasicBulletType
+    damage: 65
     speed: 3
-    lifetime: 30
-    drag: 0.1
-    backColor: f9c17a00
-    frontColor: fff8e800
-    collides: false
-    collidesGround: false
-    collidesAir: false
-    collidesTiles: false
-    hittable: false
-    reflectable: false
-    absorbable: false
-    laserAbsorb: false
-    keepVelocity: false
-    targetMissiles: false
-    removeAfterPierce: false
-    hitEffect: none
+    lifetime: 46
+    width: 15
+    height: 17
+    backColor: 797979ff
+    frontColor: ffffffff
+    shrinkInterp: slowFast
+    shrinkX: 0.5
+    shrinkY: -0.5
+    knockback: 0.1
+    status: slow
+    statusDuration: 120
+    trailInterval: 10
+    trailRotation: true
+    hitEffect: hitLancerLow
+    despawnEffect: randLifeSpark
 
     shootEffect: {
       type: WaveEffect
@@ -167,85 +99,17 @@ ammoTypes: {
       smokeRad: 12
       smokes: 2
     }
-    despawnEffect: {
-      type: WaveEffect
-      colorFrom: ffffff00
+    trailEffect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 20
+      interp: smooth2
+      colorFrom: ffffff77
       colorTo: ffffff00
-    }
-
-    fragBullets: 1
-    fragBullet: {
-      laserAbsorb: false
-      collidesGround: false
-      hittable: false
-      reflectable: false
-      collides: false
-      absorbable: false
-      targetMissiles: false
-      collidesAir: false
-      collidesTiles: false
-      followAimSpeed: 100
-      lifetime: 5
-      fragBullets: 1
-      fragRandomSpread: 0
-      targetBlocks: false
-      hitColor: ffffff00
-      lightColor: fbfbfbff
-
-      hitEffect: {
-        type: ParticleEffect
-        useRotation: false
-        interp: fade
-        colorFrom: ffffff00
-        particles: 1
-        length: 0
-        lifetime: 25
-        sizeFrom: 23
-      }
-      despawnEffect: {
-        type: ParticleEffect
-        useRotation: false
-        interp: pow2In
-        colorFrom: ffffff00
-        colorTo: ffffff5c
-        particles: 1
-        length: 0
-        sizeFrom: 12
-      }
-
-      fragBullet: {
-        type: BasicBulletType
-        damage: 65
-        speed: 2.2
-        accel: 0.25
-        lifetime: 50
-        width: 15
-        height: 17
-        backColor: 797979ff
-        frontColor: ffffffff
-        shrinkInterp: slowFast
-        shrinkX: 0.5
-        shrinkY: -0.5
-        knockback: 0.1
-        status: slow
-        statusDuration: 120
-        trailInterval: 10
-        trailRotation: true
-        hitEffect: hitLancerLow
-        despawnEffect: randLifeSpark
-        trailEffect: {
-          type: ParticleEffect
-          particles: 1
-          lifetime: 20
-          interp: smooth2
-          colorFrom: ffffff77
-          colorTo: ffffff00
-          cone: 0
-          randLength: false
-          sizeTo: 6
-          rotWithParent: true
-        }
-      }
+      cone: 0
+      randLength: false
+      sizeTo: 6
+      rotWithParent: true
     }
   }
 }
