@@ -14,7 +14,7 @@ shoot: {
   shotDelay: 15
 }
 
-ammo: {
+ammoTypes: {
   pa-aluminum: {
     type: BasicBulletType
     speed: 3
