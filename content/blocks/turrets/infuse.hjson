@@ -3,6 +3,8 @@ type: ItemTurret
 size: 2
 range: 140
 reload: 175
+research: core-star
+researchCostMultiplier: 0.1
 inaccuracy: 360
 shootCone: 360
 shake: 0.01
