@@ -8,6 +8,37 @@ shootCone: 360
 shake: 0.01
 recoilTime: 20
 
+drawer: {
+  type: DrawTurret
+  basePrefix: pa-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -shields
+      mirror: false
+      under: false
+      progress: warmup
+      moveY: 1
+    }
+    {
+      type: RegionPart
+      suffix: -thruster
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -2
+    }
+  ]
+}
+ 
 shoot: {
   type: ShootPattern
   shots: 3
