@@ -3,23 +3,23 @@ type: ItemTurret
 size: 2
 range: 140
 reload: 175
-inaccuracy: 0
-shootCone: 10
+inaccuracy: 360
+shootCone: 360
 shake: 0.01
 recoilTime: 20
 
 shoot: {
   type: ShootPattern
   shots: 3
-  shotDelay: 15
+  shotDelay: 0
 }
 
 ammoTypes: {
   pa-aluminum: {
-    type: BasicBulletType
+    type: MissileBulletType
     damage: 65
     speed: 3
-    lifetime: 46
+    lifetime: 70
     width: 15
     height: 17
     backColor: 797979ff
@@ -34,6 +34,11 @@ ammoTypes: {
     trailRotation: true
     hitEffect: hitLancerLow
     despawnEffect: randLifeSpark
+    homingPower: 0.5
+    homingDelay: 20
+    homingRange: 200
+    weaveMag: 0
+    weaveScale: 0
 
     shootEffect: {
       type: WaveEffect
@@ -65,10 +70,10 @@ ammoTypes: {
   }
 
   pa-dromium: {
-    type: BasicBulletType
+    type: MissileBulletType
     damage: 65
     speed: 3
-    lifetime: 46
+    lifetime: 70
     width: 15
     height: 17
     backColor: 797979ff
@@ -83,6 +88,11 @@ ammoTypes: {
     trailRotation: true
     hitEffect: hitLancerLow
     despawnEffect: randLifeSpark
+    homingPower: 0.5
+    homingDelay: 20
+    homingRange: 200
+    weaveMag: 0
+    weaveScale: 0
 
     shootEffect: {
       type: WaveEffect
