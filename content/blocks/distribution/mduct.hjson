@@ -1,0 +1,13 @@
+type: Duct
+name: mduct
+speed: 15
+category: distribution
+health: 40
+size: 1
+requirements: {
+aluminum/1
+}
+researchCost: {
+aluminum/2
+}
+researchCostMultiplier: 2
