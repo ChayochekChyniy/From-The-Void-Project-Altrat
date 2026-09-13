@@ -1,5 +1,5 @@
 type: flying
-name: Asteroid
+name: asteroid
 speed: 0.8
 hitSize: 8
 rotateSpeed: 3
