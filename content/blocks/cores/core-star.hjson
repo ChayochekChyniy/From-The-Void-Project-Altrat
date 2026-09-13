@@ -1,9 +1,9 @@
-name: Core: Star
+name: core-star
 type: CoreBlock
 size: 3
 health: 3000
 armor: 12
-coreUnit: asteroid
+unitType: "asteroid"
 requirements: [
 aluminum/1000
 forgestone/900
