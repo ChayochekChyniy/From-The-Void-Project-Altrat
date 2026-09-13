@@ -1,22 +1,23 @@
 type: flying
 name: asteroid
-speed: 0.8
-hitSize: 8
+speed: 0.6
+hitSize: 7
 rotateSpeed: 3
-health: 130
+health: 300
 armor: 3
-itemCapacity: 40
-buildSpeed: 1
-mineSpeed: 5
-mineTier: 1
+itemCapacity: 20
+buildSpeed: 1.1
+mineSpeed: 4
+mineTier: 2
 
 engineOffset: 6
-engineSize: 2.8
+engineSize: 2.9
 
 outlineColor: 433A60FF
 
 weapons: [
   {
+    name: asteroid-w
     x: 2
     y: 4
     reload: 34
@@ -25,7 +26,7 @@ weapons: [
     shootY: 3
 
     shoot: {
-      shots: 3
+      shots: 2
       shotDelay: 4
     }
 
