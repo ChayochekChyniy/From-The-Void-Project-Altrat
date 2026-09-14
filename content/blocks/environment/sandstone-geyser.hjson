@@ -9,7 +9,7 @@ effect:{
     effects: [
         {
             type: ParticleEffect
-            region: sandstone-geyser
+            region: geyserParticle
             lifetime: 70
             sizeInterp: slope
             length: 25
@@ -24,7 +24,7 @@ effect:{
         }
         {
             type: ParticleEffect
-            region: sandstone-geyser
+            region: geyserParticle
             lifetime: 130
             sizeInterp: slope
             length: 65
@@ -39,7 +39,7 @@ effect:{
         }
         {
             type: ParticleEffect
-            region: sandstone-geyser
+            region: geyserParticle
             lifetime: 100
             sizeInterp: slope
             length: 65
