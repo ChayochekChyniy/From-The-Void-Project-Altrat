@@ -1,4 +1,5 @@
-type: WallOre
+type: OreBlock
 name: aluminum-ore
 variants: 3
-ItemDrop: aluminum
+itemDrop: aluminum
+wallOre: true
