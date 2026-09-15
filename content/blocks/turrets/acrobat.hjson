@@ -20,14 +20,21 @@ drawer: {
 			type: RegionPart
 			suffix: -middle
 			under: true
-			progress: recoil
-			moveY: -1
+			progress: warmup
+			moveY: -3
 		}
 		{
 			type: RegionPart
 			suffix: -right
 			under: true
 			progress: recoil
+			moveY: -1
+		}
+  	{
+			type: RegionPart
+			suffix: -left
+			under: true
+			progress: warmum
 			moveY: -1
 		}
 	]
