@@ -3,7 +3,7 @@ name: sandstone-geyser
 parent: sandstone-sand
 variants: 2
 effect: {
-	particles: 5
+	particles:1  
 	length: 210
 	lifetime: 432
 	cone: 20
