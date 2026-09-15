@@ -1,0 +1,4 @@
+type: WallOre
+name: aluminum-ore
+variants: 3
+ItemDrop: aluminum
