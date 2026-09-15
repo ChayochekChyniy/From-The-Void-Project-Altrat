@@ -1,4 +1,5 @@
-type: WallOre
+type: OreBlock
 name: dromium-ore
 variants: 3
-ItemDrop: dromium
+itemDrop: dromium
+wallOre: true
