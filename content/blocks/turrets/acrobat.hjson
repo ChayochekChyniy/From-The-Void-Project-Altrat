@@ -8,64 +8,57 @@ category: turret
 alwaysUnlocked: true
 
 shoot: {
- type: ShootPattern
- shots: 3
- shotDelay: 6
+	type: ShootPattern
+	shots: 3
+	shotDelay: 6
 }
 
 drawer: {
- type: DrawTurret
- parts: [
-  {
-   type: RegionPart
-   suffix: -barrel1
-   under: true
-   progress: recoil
-   moveY: -1
-  }
-  {
-   type: RegionPart
-   suffix: -barrel2
-   under: true
-   progress: recoil
-   moveY: -1
-  }
-  {
-   type: RegionPart
-   suffix: -barrel3
-   under: true
-   progress: recoil
-   moveY: -1
-  }
- ]
+	type: DrawTurret
+	parts: [
+		{
+			type: RegionPart
+			suffix: -middle
+			under: true
+			progress: recoil
+			moveY: -1
+		}
+		{
+			type: RegionPart
+			suffix: -right
+			under: true
+			progress: recoil
+			moveY: -1
+		}
+	]
 }
 
 requirements: [
- pa-aluminum/60
- pa-dromium/45
+	pa-aluminum/60
+	pa-dromium/45
 ]
 
 ammoTypes: {
- pa-aluminum: {
-  type: BasicBulletType
-  damage: 13
-  speed: 4
-  lifetime: 40
-  width: 6
-  height: 10
-  trailColor: cbdcddff
-  backColor: cbdcddff
-  frontColor: ffffffff
- }
- pa-dromium: {
-  type: BasicBulletType
-  damage: 13
-  speed: 4
-  lifetime: 40
-  width: 6
-  height: 10
-  trailColor: cbdcddff
-  backColor: cbdcddff
-  frontColor: ffffffff
- }
+	pa-aluminum: {
+		type: BasicBulletType
+		damage: 13
+		speed: 4
+		lifetime: 40
+		width: 6
+		height: 10
+		trailColor: cbdcddff
+		backColor: cbdcddff
+		frontColor: ffffffff
+	}
+	pa-dromium: {
+		type: BasicBulletType
+		damage: 13
+		speed: 4
+		lifetime: 40
+		width: 6
+		height: 10
+		trailColor: cbdcddff
+		backColor: cbdcddff
+		frontColor: ffffffff
+	}
 }
