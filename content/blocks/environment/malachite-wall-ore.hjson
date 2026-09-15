@@ -1,3 +1,4 @@
 type: WallOre
 name: malachite-ore
 ItemDrop: malachite
+variants: 3
