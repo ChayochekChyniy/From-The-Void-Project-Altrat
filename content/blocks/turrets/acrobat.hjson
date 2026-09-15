@@ -5,7 +5,8 @@ size: 2
 range: 100
 reload: 72
 category: turret
-alwaysUnlocked: false
+research: core-star
+researchCostMultiplier: 0.1
 
 outlineColor: 433A60FF
 
