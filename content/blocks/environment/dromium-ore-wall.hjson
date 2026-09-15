@@ -1,0 +1,4 @@
+type: WallOre
+name: dromium-ore
+variants: 3
+ItemDrop: dromium
