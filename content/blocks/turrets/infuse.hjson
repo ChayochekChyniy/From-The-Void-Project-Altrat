@@ -4,12 +4,14 @@ size: 2
 range: 140
 reload: 175
 category: turret
-research: core-star
+research: acrobat
 researchCostMultiplier: 0.1
 inaccuracy: 360
 shootCone: 360
 shake: 0.01
 recoilTime: 20
+
+outlineColor: 433A60FF
 
 drawer: {
   type: DrawTurret
