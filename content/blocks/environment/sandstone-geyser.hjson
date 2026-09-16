@@ -9,9 +9,11 @@ effect: {
 	cone: 20
 	baseRotation: 30
 	sizeFrom: 0
-	sizeTo: 19
+	sizeTo: 15
 	colorFrom: "B0A594"
 	colorTo: "B0A594"
 	sizeInterp: pow3Out
 	interp: pow3Out
 } 
+
+//effectColor: "7a7266c6"
