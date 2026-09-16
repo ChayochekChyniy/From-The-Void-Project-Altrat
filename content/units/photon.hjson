@@ -1,0 +1,33 @@
+type: mech
+name: Photon
+description: Basic mech attack unit, shooting lowdamage lightings.
+speed: 0.7
+flying: false
+health: 450
+research: core-star
+armor: 2
+hitSize: 7
+outlineColor: 433A60FF
+mechLegColor: 433A60FF
+  weapons: [
+  {
+    x: 4.5
+    y: 0
+    reload: 23
+    top: false
+    layerOffset: -0.01
+    mirror: true
+    name: photon-w
+    shootSound: shootElectric
+    shootY: 1.75
+    bullet: {
+      type: LightningBulletType
+      lightningLength: 10
+      damage: 17
+      pierce: false
+      pierceBuilding: false
+      lightningColor: E4A49BFF
+    }
+  }
+]
+researchCostMultiplier: 0.3
