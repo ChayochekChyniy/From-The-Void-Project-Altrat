@@ -3,17 +3,15 @@ name: sandstone-geyser
 parent: sandstone-sand
 variants: 2
 effect: {
-	particles: 1
-	length: 210
-	lifetime: 432
-	cone: 20
-	baseRotation: 30
-	sizeFrom: 0
-	sizeTo: 15
-	colorFrom: "BCAA87"
-	colorTo: "AD9E7F"
-	sizeInterp: pow3Out
-	interp: pow3Out
-} 
-
-//effectColor: "7a7266c6"
+ particles: 1
+ length: 210
+ lifetime: 432
+ cone: 20
+ baseRotation: 30
+ sizeFrom: 0
+ sizeTo: 19
+ colorFrom: "52392f90"
+ colorTo: "2e282210"
+ sizeInterp: pow3Out
+ interp: pow3Out
+}
