@@ -21,13 +21,13 @@ weapons: [
   mirror: false
   bullet: {
    type: ContinuousFlameBulletType
-   damage: 20
+   damage: 18
    length: 70
    damageInterval: 5
    shake: 1
-   hitColor: E4A49BFF
-   colorFrom: E4A49BFF
-   colorTo: E08D82FF
+   hitColor: B62020FF
+   colorFrom: DC1F1FFF
+   colorTo: B62020FF
   }
  }
 {
@@ -40,13 +40,13 @@ weapons: [
   mirror: false
   bullet: {
    type: ContinuousFlameBulletType
-   damage: 20
+   damage: 18
    length: 70
    damageInterval: 5
    shake: 1
-   hitColor: E4A49BFF
-   colorFrom: E4A49BFF
-   colorTo: E08D82FF
+   hitColor: B62020FF
+   colorFrom: DC1F1FFF
+   colorTo: DC1F1FFF
   }
  }
 ]
