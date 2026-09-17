@@ -1,0 +1,30 @@
+type: mech
+name: bunch
+
+speed: 0.6
+hitSize: 9
+rotateSpeed: 4
+health: 460
+armor: 5
+itemCapacity: 20
+
+weapons: [
+ {
+  x: 0
+  y: 2
+  reload: 8
+  shootCone: 30
+  mirror: false
+
+  bullet: {
+   type: ContinuousFlameBulletType
+   damage: 20
+   length: 65
+   damageInterval: 5
+   shake: 1
+   hitColor: ffa400ff
+   colorFrom: ffa400ff
+   colorTo: ff6b00ff
+  }
+ }
+]
