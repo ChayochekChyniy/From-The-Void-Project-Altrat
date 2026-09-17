@@ -14,10 +14,30 @@ weapons: [
  {
   x: 7.75
   y: 0
+  name: bunch-w
   reload: 8
+  layerOffset: -0.01
   shootCone: 30
   mirror: false
-
+  bullet: {
+   type: ContinuousFlameBulletType
+   damage: 20
+   length: 70
+   damageInterval: 5
+   shake: 1
+   hitColor: E4A49BFF
+   colorFrom: E4A49BFF
+   colorTo: E08D82FF
+  }
+ }
+{
+  x: -7.75
+  y: 0
+  name: bunch-w-mirror
+  reload: 8
+  layerOffset: -0.01
+  shootCone: 30
+  mirror: false
   bullet: {
    type: ContinuousFlameBulletType
    damage: 20
