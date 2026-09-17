@@ -4,14 +4,14 @@ name: bunch
 speed: 0.675
 hitSize: 9
 rotateSpeed: 4
-health: 460
+health: 700
 armor: 5
 itemCapacity: 20
 
 weapons: [
  {
-  x: 0
-  y: 2
+  x: 7.75
+  y: 0
   reload: 8
   shootCone: 30
   mirror: false
@@ -19,7 +19,7 @@ weapons: [
   bullet: {
    type: ContinuousFlameBulletType
    damage: 20
-   length: 65
+   length: 70
    damageInterval: 5
    shake: 1
    hitColor: ffa400ff
