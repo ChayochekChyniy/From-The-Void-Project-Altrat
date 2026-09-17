@@ -7,6 +7,8 @@ rotateSpeed: 4
 health: 700
 armor: 5
 itemCapacity: 20
+outlineColor: 433A60FF
+mechLegColor: 433A60FF
 
 weapons: [
  {
@@ -22,9 +24,9 @@ weapons: [
    length: 70
    damageInterval: 5
    shake: 1
-   hitColor: ffa400ff
-   colorFrom: ffa400ff
-   colorTo: ff6b00ff
+   hitColor: E4A49BFF
+   colorFrom: E4A49BFF
+   colorTo: E08D82FF
   }
  }
 ]
